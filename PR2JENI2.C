@@ -3,9 +3,8 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main();{
-int unit;
-float electricity,total,ammount
+void main(){
+float bill,d,c,b,a;
 
 clrscr();
 printf("===================================");
@@ -15,10 +14,17 @@ printf("===================================\n");
 printf("-----------------------");
 printf("enter electricity units");
 print("------------------------\n");
+scanf("%f",&bill);
+(bill<=50)
+   printf("ELECTRICITY BILL = RS . %f",a);
 
+ }else if(bill<=150){
+    printf("electricity bill %f",b);
+     }else if(bill<=250){
+	printf("electricity bill %f",c);
 
-
-
+	}else{
+	   printf("electricity billb %F",d);
 
 
 getch();
