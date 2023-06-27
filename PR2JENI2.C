@@ -1,5 +1,11 @@
 // Q2 write a program to input electricity unit charges and calculate the total electricity bill according to the given condition:
 
+/*Input:
+       Enter electricity units: 435
+Output: 
+       Electricity Bill = Rs. 597.0
+*/
+
 #include<stdio.h>
 #include<conio.h>
 
@@ -18,6 +24,7 @@ scanf("%f",&bill);
 (bill<=50)
    printf("ELECTRICITY BILL = RS . %f",a);
 
+
  }else if(bill<=150){
     printf("electricity bill %f",b);
      }else if(bill<=250){
@@ -25,7 +32,6 @@ scanf("%f",&bill);
 
 	}else{
 	   printf("electricity billb %F",d);
-
 
 getch();
 }
