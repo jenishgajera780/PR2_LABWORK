@@ -10,7 +10,8 @@ Output:
 #include<conio.h>
 
 void main(){
-float bill,d,c,b,a;
+int unit;
+float amount,total-amount,surcharge;
 
 clrscr();
 printf("===================================");
@@ -20,18 +21,16 @@ printf("===================================\n");
 printf("-----------------------");
 printf("enter electricity units");
 print("------------------------\n");
-scanf("%f",&bill);
-(bill<=50)
-   printf("ELECTRICITY BILL = RS . %f",a);
-
-
- }else if(bill<=150){
-    printf("electricity bill %f",b);
-     }else if(bill<=250){
-	printf("electricity bill %f",c);
-
-	}else{
-	   printf("electricity billb %F",d);
-
-getch();
-}
+scanf("%f",&unit); 
+  
+ if(a<=50){  
+ amount = unit*0.50;} 
+     else if(unit<=250){ 
+      amount = 25 + (unit - 50) * 0.75;} 
+ }else if(unit <= 150) * 1.20; 
+ }else{amount = 220 +(unit - 250) *1.50;} 
+ surcharge = amount * 20%; 
+ total-amunt=amount +surcharge; 
+ peintf("your total bill is Rs.%.2",total-amount); 
+ getch(); 
+ }
