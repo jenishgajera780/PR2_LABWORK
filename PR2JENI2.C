@@ -29,7 +29,7 @@ scanf("%f",&unit);
       amount = 25 + (unit - 50) * 0.75;} 
  }else if(unit <= 150) * 1.20; 
  }else{amount = 220 +(unit - 250) *1.50;} 
- surcharge = amount * 20%; 
+ surcharge = amount * 0.20; 
  total-amunt=amount +surcharge; 
  peintf("your total bill is Rs.%.2",total-amount); 
  getch(); 
